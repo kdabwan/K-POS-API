@@ -1,0 +1,1 @@
+java -jar target/kpos-api-1.0-SNAPSHOT.jar server src/main/resources/kpos-local.yml

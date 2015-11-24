@@ -1,0 +1,32 @@
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: root
+  password: kposkpos
+  url: jdbc:mysql://localhost
+  validationQuery: "/* MyService Health Check */ SELECT 1"
+  properties:
+    charSet: UTF-8
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+logging:
+  level: INFO
+  loggers:
+    com.kpos.api.todo: DEBUG
+
+  appenders:
+    - type: console
+
+    - type: file
+      threshold: INFO
+      logFormat: "%-6level [%d{HH:mm:ss.SSS}] [%t] %logger{5} - %X{code} %msg %n"
+      currentLogFilename: /tmp/kpos-api.log
+      archivedLogFilenamePattern: /tmp/kpos-api-%d{yyyy-MM-dd}-%i.log.gz
+      archivedFileCount: 7
+      timeZone: UTC
