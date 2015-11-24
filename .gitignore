@@ -1,3 +1,6 @@
+/.gitignore
+/target
+/.idea
 .idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml
 .idea/libraries/Maven__org_hibernate_hibernate_core_4_3_5_Final.xml
 .idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml
