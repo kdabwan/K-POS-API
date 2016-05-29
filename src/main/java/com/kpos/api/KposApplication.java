@@ -1,7 +1,7 @@
 package com.kpos.api;
 
 
-import com.github.nhuray.dropwizard.spring.SpringBundle;
+
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
