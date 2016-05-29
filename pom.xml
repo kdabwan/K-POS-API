@@ -81,11 +81,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.github.nhuray</groupId>-->
-            <!--<artifactId>dropwizard-spring</artifactId>-->
-            <!--<version>0.3.4-RELEASE</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.github.nhuray</groupId>
+            <artifactId>dropwizard-spring</artifactId>
+            <version>0.3.4-RELEASE</version>
+        </dependency>
 
 
     </dependencies>

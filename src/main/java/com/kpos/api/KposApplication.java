@@ -26,7 +26,7 @@ public class KposApplication extends Application<KposConfiguration> {
 
     @Override
     public void initialize(Bootstrap<KposConfiguration> bootstrap) {
-        bootstrap.addBundle(new SpringBundle(applicationContext(),true,true,true));
+        bootstrap.addBundle(new SpringBundle(applicationContext(), true, true, true));
     }
 
     private ConfigurableApplicationContext applicationContext(){
