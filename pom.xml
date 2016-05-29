@@ -82,7 +82,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>com.github.nhuray</groupId>
+            <groupId>com.github.raduciumag</groupId>
             <artifactId>dropwizard-spring</artifactId>
             <version>0.3.4-RELEASE</version>
         </dependency>
