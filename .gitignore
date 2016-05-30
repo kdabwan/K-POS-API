@@ -32,7 +32,6 @@
 .idea/libraries/Maven__org_yaml_snakeyaml_1_12.xml
 .idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml
 dependency-reduced-pom.xml
-dropwizard-spring-0.3.4-RELEASE.jar
 K-POS-API.iml
 kpos-api.iml
 kpos-api.ipr
