@@ -85,6 +85,7 @@
             <groupId>com.github.raduciumag</groupId>
             <artifactId>dropwizard-spring</artifactId>
             <version>0.3.4-RELEASE</version>
+            <scope>system</scope>
             <systemPath>${basedir}/lib/dropwizard-spring-0.3.4-RELEASE.jar</systemPath>
         </dependency>
 
