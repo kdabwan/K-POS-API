@@ -1,6 +1,7 @@
 package com.kpos.api.resource;
 
 import org.junit.*;
+import org.junit.Test;
 
 import static org.junit.Assert.*;
 
@@ -13,4 +14,8 @@ public class TestTest {
         assertTrue(true);
     }
 
+    @Test
+    public void name() throws Exception {
+        assertTrue(true);
+    }
 }
