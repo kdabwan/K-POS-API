@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class TestTest {
     @org.junit.Test
     public void test1() throws Exception {
-    assertTrue(true);
+        assertTrue(true);
     }
 
 }
