@@ -138,7 +138,7 @@
                 <configuration>
                     <skip>false</skip>
                     <useFile>false</useFile>
-                    <argLine>-Xms512m -Xmx512m -XX:MaxPermSize=256m</argLine>
+                    <argLine>-Xms512m -Xmx512m</argLine>
                 </configuration>
             </plugin>
 
